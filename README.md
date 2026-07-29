@@ -178,4 +178,4 @@ Durante el desarrollo de esta SPA se integraron herramientas de IA como asistent
 ---
 
 ## 📜 Licencia & Creditos
-Desarrollado para MateCode - Módulo 4 Proyecto Integrador
+Desarrollado para MateCode - Módulo 4 Proyecto Integrador.

@@ -173,7 +173,7 @@ Durante el desarrollo de esta SPA se integraron herramientas de IA como asistent
 
 ## 🌐 URL de Despliegue en Producción (Vercel)
 
-- **URL Pública**: `https://proyecto-m4-task-manager.vercel.app` (Ejemplo de despliegue en Vercel)
+- **URL Pública**: 
 
 ---
 

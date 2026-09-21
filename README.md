@@ -174,7 +174,7 @@ Durante el desarrollo de esta SPA se integraron herramientas de IA como asistent
 ## 🌐 URL de Despliegue en Producción (Vercel)
 
 - **URL Pública**: 
-
+pim-4-tau.vercel.app
 ---
 
 ## 📜 Licencia & Creditos

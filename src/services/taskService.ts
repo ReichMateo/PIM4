@@ -6,7 +6,6 @@ import {
   doc,
   query,
   where,
-  orderBy,
   onSnapshot,
   writeBatch,
 } from 'firebase/firestore';
@@ -26,8 +25,7 @@ export function subscribeToUserTasks(
 ): Unsubscribe {
   const q = query(
     collection(db, TASKS_COLLECTION),
-    where('userId', '==', userId),
-    orderBy('createdAt', 'desc')
+    where('userId', '==', userId)
   );
 
   return onSnapshot(

@@ -4,6 +4,11 @@ import { MemoryRouter, Routes, Route } from 'react-router-dom';
 import { ProtectedRoute } from '../../routes/ProtectedRoute';
 import * as AuthHook from '../../hooks/useAuth';
 
+vi.mock('../../services/firebase', () => ({
+  auth: {},
+  db: {},
+  googleProvider: {},
+}));
 vi.mock('../../hooks/useAuth');
 
 describe('ProtectedRoute Component Tests', () => {
